@@ -1,0 +1,26 @@
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: navy;
+    font-size: 1.1em;
+}
+li:hover {
+    background-color: rgba(255, 255, 0, 0.435);
+    font-size: 1.1em;
+}
+#greeting p{
+    font-style: italic;
+    background-color: rgba(97, 207, 244, 0.683);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
+
+#greeting::before {
+    content: "👾"; 
+}
+

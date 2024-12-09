@@ -1,0 +1,46 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: skyblue;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+
+}
+.buttons div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons div a{
+    transition: all 0.3s;
+    background-color: #FF6766;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+    border: 2px;
+    border-color: #370000;
+    border-style: solid;
+    padding: 25px;
+    width: 300px;
+    vertical-align: middle;
+}
+
+.buttons div a:hover {
+    background-color: #009899;
+    text-decoration: underline;
+}

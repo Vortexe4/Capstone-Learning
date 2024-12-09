@@ -1,0 +1,24 @@
+body{
+    background-image: url(pexels-maximilian-ruther-199439233-11589790.jpg);
+    background-position: auto;
+    background-size:cover;
+    margin: auto;
+    
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6.6em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    backdrop-filter: blur(50px);
+    background-color: hsla(0, 0%,100%, 0.1)
+}

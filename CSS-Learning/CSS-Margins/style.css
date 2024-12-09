@@ -1,0 +1,30 @@
+body{
+    margin: opx;
+    background-image:url(CSS.Images/belvedere-castle.jpg.avif)
+}
+.box{
+    border: 5px outset;
+    font-size: 5em;
+    width: 250px;
+    height: 250px
+}
+#box1{ 
+    margin: auto;
+    background-color: blue;
+    color: white;
+
+}
+#box2{
+    margin: auto;
+    background-color: black;
+    color: white; 
+}
+.box{
+    padding: 25px;
+    box-sizing: border-box;
+    height:auto;
+    width: 50%;
+    float: left;
+}
+
+/* .box is the reason why these boxes are formatted right next to each other
